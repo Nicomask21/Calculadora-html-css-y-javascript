@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="colorsito">Calculadora Online</h1>
+    <fieldset>
+        <p>+</p>
+        <input type="number" id="N1-Suma" placeholder="Primer numero">
+        <input type="number" id="N2-Suma" placeholder="Segundo numero">
+        <button id="chocapik" onclick="Suma();">Calcular</button>
+        <label>La respuesta es:</label>  <span id="Rsuma">---</span>
+
+    </fieldset>
+    <fieldset>
+        <p>-</p>
+        <input type="number" id="N1-Resta" placeholder="Primer numero">
+        
+        <input type="number" id="N2-Resta" placeholder="segundo numero">
+        <button id="chocapik" onclick="Restica();">Calcular</button>
+        <label>La respuesta es:</label>  <span id="Rresta">---</span>
+    </fieldset>
+    <fieldset>
+        <p>x</p>
+        <input type="number" id="N1-Multi" placeholder="Primer numero">
+        <input type="number" id="N2-Multi" placeholder="segundo numero">
+        <button id="chocapik" onclick="multiplicacion();">Calcular</button>
+        <label>La respuesta es:</label>  <span id="Rmulti">---</span>
+        
+
+    </fieldset>
+    <fieldset>
+        <p>/</p>
+        <input type="number" id="N1-Divi" placeholder="Primer numero">
+        <input type="number" id="N2-Divi" placeholder="segundo numero">
+        <button id="chocapik" onclick="Division();">Calcular</button>
+        <label>La respuesta es:</label>  <span id="RDivi">---</span>
+
+    </fieldset>
+    <script src="calculadora.js"></script>
+    
+    
+    
+</body>
+</html>

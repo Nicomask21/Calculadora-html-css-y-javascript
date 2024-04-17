@@ -1,0 +1,52 @@
+fieldset{
+    height: 100px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(from color r g b);
+   background-color: rgba(2, 2, 18, 0.438);
+   margin-bottom: 20px;
+}
+input{
+    margin-right: 20px;
+   margin-bottom: 200px;
+   text-align: left;
+   border-color: black;
+   border-radius: 20px;
+}
+
+p{
+    margin-left: 180px;
+    margin-bottom: -20px;
+}
+
+h1{
+    text-align: center;
+
+}
+#colorsito:hover{
+    color: red;
+    cursor: pointer;
+
+}
+
+body{
+    background-image: url(./manos-humanas-usando-calculadora_112699-201.avif);
+    background-size: cover;
+}
+
+button{
+    background-color: red;
+    
+      
+      
+}
+
+#chocapik:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+    transition: 2s;
+}
+
+span{
+    color: red;
+}
